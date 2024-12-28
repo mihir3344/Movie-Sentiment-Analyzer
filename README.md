@@ -26,20 +26,19 @@ The dataset used for training and testing consists of labeled movie reviews, whe
 - Matplotlib
 - Scikit-learn
 
-[[4150  811]
- [ 625 4414]]
 
 
-              precision    recall  f1-score   support
+### Classification Report
 
-    Negative       0.87      0.84      0.85      4961
-    Positive       0.84      0.88      0.86      5039
+| **Class**   | **Precision** | **Recall** | **F1-Score** | **Support** |
+|-------------|---------------|------------|--------------|-------------|
+| Negative    | 0.87          | 0.84       | 0.85         | 4961        |
+| Positive    | 0.84          | 0.88       | 0.86         | 5039        |
 
-    accuracy                           0.86     10000
-   macro avg       0.86      0.86      0.86     10000
-weighted avg       0.86      0.86      0.86     10000
+- **Accuracy**: 0.86
+- **Total Support**: 10000
 
-
+     
 ## Sample Predictions
 
 Here are some sample predictions made by the Sentiment Analysis model:
